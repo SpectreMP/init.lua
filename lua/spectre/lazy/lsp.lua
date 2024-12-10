@@ -34,6 +34,7 @@ return {
                 "ts_ls",
                 "html",
                 "emmet_language_server",
+                "cssls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
