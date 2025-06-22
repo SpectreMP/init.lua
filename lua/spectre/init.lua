@@ -1,4 +1,4 @@
-vim.cmd("language en_US")
+vim.cmd("language en_US.UTF-8")
 require("spectre.set")
 require("spectre.remap")
 require("spectre.lazy_init")
