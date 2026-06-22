@@ -24,7 +24,6 @@ return {
 
         require("fidget").setup({})
         require("mason").setup()
-        require("lspconfig").gdscript.setup({})
         require("mason-lspconfig").setup({
             ensure_installed = {
                 "lua_ls",
@@ -77,6 +76,8 @@ return {
         })
 
         local cmp_select = { behavior = cmp.SelectBehavior.Select }
+
+        vim.lsp.enable('gdscript')
 
         cmp.setup({
             snippet = {
